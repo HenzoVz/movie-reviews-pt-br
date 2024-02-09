@@ -1,11 +1,24 @@
 # movie-reviews-pt-br
 
-#### Análise de sentimentos de filmes com base no em comentários, resultando em comentário positivo ou negativo.
+## Data Analysis
 
-#### O corpus foi reduzido em relação ao original, possuindo 1500 amostras, 750 positivas e 750 negativas tendo um balanceamento das classes.
+### Overview
+Sentiment Analysis of Portuguese Movie Reviews involves examining a dataset with 1500 samples, evenly split between 750 positive and 750 negative comments.
 
-#### Foi feito um pequeno pré-processamento para tratar os textos e retirar sujeiras presente dentro do texto.
+## Data Cleaning
 
-#### Foi utilizado modelo TF-IDF(term frequency–inverse document frequency) para representa o espaço vetorial dos comentários.
+### Corpus Reduction
+The dataset underwent a reduction process, resulting in a balanced representation of both positive and negative classes.
 
-#### Foi abordado classificação binária para essa análise, haja em vista que possui somente duas classes.
+### Pre-processing
+A meticulous pre-processing step was executed to handle text and eliminate any noise or irregularities present within the comments.
+
+## Feature Engineering
+
+### TF-IDF Model
+The Term Frequency–Inverse Document Frequency (TF-IDF) model was applied to construct the vector space representation of the comments.
+
+## Machine Learning
+
+### Binary Classification
+The analysis adopts a binary classification approach, focusing on the distinction between positive and negative sentiments within the dataset.
